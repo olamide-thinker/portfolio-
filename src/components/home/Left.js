@@ -3,10 +3,10 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { BsCloudLightningFill, BsFacebook } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
-import { SiYoutubemusic } from "react-icons/si";
+// import { SiYoutubemusic } from "react-icons/si";
 import { FiInstagram, FiMail, FiSend } from "react-icons/fi";
-import CV from "../../assets/jossy-CV.pdf";
-import { bannerImg } from "../../assets/index";
+import CV from "../../assets/Olamide-resume-yes.pdf";
+// import { bannerImg } from "../../assets/index";
 import { socialsData } from "./SocialMediaLinks";
 
 const MyProfile = () => {
@@ -25,7 +25,6 @@ const MyProfile = () => {
     <div className="z-10 flex flex-col justify-between w-full h-full lgl:w-5/12 bg-bodyColor rounded-2xl shadow-testShwdow">
    <h3 className="w-full p-4 text-lg font-bold border-b border-gray-800 px-9" >Profile</h3>
 
-     
     <div className="flex flex-col items-center justify-center w-full h-full border-t-0 rounded-bl-xl rounded-br-xl">
 
       <div className=" w-[140px] min-h-[140px] rounded-full overflow-hidden  border-8 border-bodyColor   " >
@@ -48,22 +47,13 @@ const MyProfile = () => {
             <a href={socialsData.github}   target="_blank" className="text-xl duration-300 cursor-pointer hover:text-designColor" rel="noreferrer">
               <FaGithub />
             </a>
-            <a target="_blank" href={'https://www.linkedin.com/in/josiahdavid1/'} className="text-xl duration-300 cursor-pointer hover:text-designColor" rel="noreferrer">
+            <a target="_blank" href={socialsData.linkedIn} className="text-xl duration-300 cursor-pointer hover:text-designColor" rel="noreferrer">
               <FaLinkedin />
             </a>
-            {/* <a href={''} className="text-xl duration-300 cursor-pointer hover:text-designColor">
-              <SiYoutubemusic />
-            </a> */}
-            {/* <a href={''} className="text-xl duration-300 cursor-pointer hover:text-designColor">
-              <BsFacebook />
-            </a> */}
-            <a href={''} className="text-xl duration-300 cursor-pointer hover:text-designColor">
-              {/* <FiInstagram /> */}
-            </a>
-            <a href={'https://twitter.com/JossyTec'} className="text-xl duration-300 cursor-pointer hover:text-designColor">
+                   <a href={socialsData.twitter} className="text-xl duration-300 cursor-pointer hover:text-designColor">
               <AiFillTwitterCircle />
             </a>
-            <a href={"mailto:josiahdavid111@gmail.com"} className="text-xl duration-300 cursor-pointer hover:text-designColor">
+            <a href={"mailto:olamide.thinker@gmail.com"} className="text-xl duration-300 cursor-pointer hover:text-designColor">
               <FiMail />
             </a>
           </div>
@@ -87,7 +77,7 @@ const MyProfile = () => {
           </a>
           
           <button className="w-1/2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-designColor duration-300">
-          <a href="mailto:josiahdavid111@gmail.com" className="flex items-center justify-center gap-2"> 
+          <a href="mailto:olamide.thinker@gmail.com" className="flex items-center justify-center gap-2"> 
           
             Contact me <FiSend />
           </a>
