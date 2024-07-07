@@ -27,12 +27,12 @@ const Projects = () => {
           <ProjectsCard
           link={'https://www.shaninteriordesign.com/'}
             title="Shan Interiors"
-            category="Shan Interiors Ltd an interior design company focused on commercial and domestic interior design services in Nigeria"
+            description="Shan Interiors Ltd an interior design company focused on commercial and domestic interior design services in Nigeria"
             image={shan}
           />
           {/* <ProjectsCard
             title="juliet-Ai "
-            category="Is a conversational AI tech expert who helps you throughout your tech journey—the 
+            description="Is a conversational AI tech expert who helps you throughout your tech journey—the 
             Future of Scalable Learning "
             image={juliet}
             // https://www.shaninteriordesign.com/
@@ -40,19 +40,19 @@ const Projects = () => {
           /> */}
           <ProjectsCard
             title="AfrMarket (UI Design-Figma)"
-            category="Made this Landing page for a client to be developed using wordpress"
+            description="Made this Landing page for a client to be developed using wordpress"
             image={AfriGoods}
             link={'https://www.figma.com/proto/9Z06E5dNpEgSz3z93Sl5rH/Commerce-landing-page-for-mr-Niyi?page-id=0%3A1&node-id=1-29&viewport=601%2C436%2C0.1&t=UflTuC7TlNlHVpBG-1&scaling=scale-down-width&content-scaling=fixed'}
           />
     
           {/* <ProjectsCard
             title="Infinity Logo"
-            category="Logo"
+            description="Logo"
             image={workImgTwo}
           /> */}
           {/* <ProjectsCard
             title="Mobile Application"
-            category="Shopping"
+            description="Shopping"
             image={workImgFive}
           /> */}
         </div>
@@ -60,35 +60,35 @@ const Projects = () => {
    
                 <ProjectsCard
             title="SalesP (UI Design-Figma)"
-            category="A very simplified sales engine helps sales reps with peeking into inventory and client manager."
+            description="A very simplified sales engine helps sales reps with peeking into inventory and client manager."
             image={SalesP}
              link={'https://www.figma.com/proto/cU0quhWkjuKUocT0fjZYlF/iPetty?page-id=572%3A3117&node-id=678-6274&viewport=2969%2C4068%2C0.41&t=bdiNiAj5OnBdoqjh-1&scaling=contain&content-scaling=fixed&starting-point-node-id=573%3A3187'}
           />
           {/* <ProjectsCard
             title="Grapic Design"
-            category="Design"
+            description="Design"
             image={workImgSix}
           /> */}
           {/* <ProjectsCard
             title="Ideas & Blog"
-            category="Website"
+            description="Website"
             image={workImgEight}
           /> */}
           {/* <ProjectsCard
             title="Jetron"
-            category="A platform for you to discover, share and promote your events, Sell your event tickets here!"
+            description="A platform for you to discover, share and promote your events, Sell your event tickets here!"
             image={jetron}
             link={'https://www.jetronticket.com/'}
           /> */}
           <ProjectsCard
             title="Educenty"
-            category="An EduTech ecosystem aimed at bridging the gaps between formal and experiential education "
+            description="An EduTech ecosystem aimed at bridging the gaps between formal and experiential education "
             image={edu}
             link={'https://www.educenty.org/'}
           />
                  {/* <ProjectsCard
             title="Boldo"
-            category="We connect our customers with the best, and help them keep up-and stay open."
+            description="We connect our customers with the best, and help them keep up-and stay open."
             image={boldo}
             link={'https://boldo-six.vercel.app/'}
           /> */}
