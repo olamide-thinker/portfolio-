@@ -15,6 +15,8 @@ import shan from '../../assets/work/Shan.png'
 import juliet from '../../assets/work/juliet Ai.png'
 import boldo from '../../assets/work/Boldo.png'
 import edu from '../../assets/work/edu.png'
+import AfriGoods from '../../assets/work/AfricanGood.png'
+import SalesP from '../../assets/work/petty.png'
 
 const Projects = () => {
   return (
@@ -28,14 +30,21 @@ const Projects = () => {
             category="Shan Interiors Ltd an interior design company focused on commercial and domestic interior design services in Nigeria"
             image={shan}
           />
-          <ProjectsCard
+          {/* <ProjectsCard
             title="juliet-Ai "
             category="Is a conversational AI tech expert who helps you throughout your tech journey—the 
             Future of Scalable Learning "
             image={juliet}
             // https://www.shaninteriordesign.com/
             link={'https://juliet-ai.vercel.app/'}
+          /> */}
+          <ProjectsCard
+            title="AfrMarket (UI Design-Figma)"
+            category="Made this Landing page for a client to be developed using wordpress"
+            image={AfriGoods}
+            link={'https://www.figma.com/proto/9Z06E5dNpEgSz3z93Sl5rH/Commerce-landing-page-for-mr-Niyi?page-id=0%3A1&node-id=1-29&viewport=601%2C436%2C0.1&t=UflTuC7TlNlHVpBG-1&scaling=scale-down-width&content-scaling=fixed'}
           />
+    
           {/* <ProjectsCard
             title="Infinity Logo"
             category="Logo"
@@ -48,11 +57,12 @@ const Projects = () => {
           /> */}
         </div>
         <div className="px-6">
-          <ProjectsCard
-            title="Boldo"
-            category="We connect our customers with the best, and help them keep up-and stay open."
-            image={boldo}
-            link={'https://boldo-six.vercel.app/'}
+   
+                <ProjectsCard
+            title="SalesP (UI Design-Figma)"
+            category="A very simplified sales engine helps sales reps with peeking into inventory and client manager."
+            image={SalesP}
+             link={'https://www.figma.com/proto/cU0quhWkjuKUocT0fjZYlF/iPetty?page-id=572%3A3117&node-id=678-6274&viewport=2969%2C4068%2C0.41&t=bdiNiAj5OnBdoqjh-1&scaling=contain&content-scaling=fixed&starting-point-node-id=573%3A3187'}
           />
           {/* <ProjectsCard
             title="Grapic Design"
@@ -76,6 +86,12 @@ const Projects = () => {
             image={edu}
             link={'https://www.educenty.org/'}
           />
+                 {/* <ProjectsCard
+            title="Boldo"
+            category="We connect our customers with the best, and help them keep up-and stay open."
+            image={boldo}
+            link={'https://boldo-six.vercel.app/'}
+          /> */}
         </div>
       </div>
     </div>
