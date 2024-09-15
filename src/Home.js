@@ -3,8 +3,7 @@ import { motion } from "framer-motion";
 import { FaUser, FaEnvelope } from "react-icons/fa";
 import { IoIosPaper } from "react-icons/io";
 import { MdWork, MdOutlineClose } from "react-icons/md";
-import { SiGooglechat } from "react-icons/si";
-import { BsTelephonePlusFill } from "react-icons/bs";
+
 import MyProfile  from "./components/home/Left";
 import About from "./components/about/About";
 import Resume from "./components/resume/Resume";

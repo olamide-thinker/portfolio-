@@ -60,9 +60,6 @@ const MyProfile = () => {
         </div>
       </div>
 
-
-
-
       <div className="flex h-14">
           <a
             href={CV}
