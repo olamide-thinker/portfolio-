@@ -13,7 +13,7 @@ const MyProfile = () => {
 
   
   const [text] = useTypewriter({
-    words: ["Frontend Web Developer", "MERN Stack Developer", "Graphics Designer"],
+    words: ["Ui Ux", "Frontend Web Developer", "MERN Stack Developer", "Graphics Designer"],
     loop: true,
     typeSpeed: 30,
     deleteSpeed: 20,
