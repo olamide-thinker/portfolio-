@@ -38,6 +38,99 @@ const Projects = () => {
             </>}
           />
 
+<ProjectsCard
+    title="SyncSalez (Multi-Tenant Mobile App)"
+    description="Engineered a scalable full-stack mobile application supporting multi-tenancy (organizations and branches). Focused on performance, code reusability, and advanced state management."
+    image={SyncSalezImage} // Placeholder for your image
+    link={'#'} // Replace with actual app store or demo link if available
+    stack={<>
+        <FrameWork tip={'React Native (Expo)'} iconName={"logos:react"}/>
+        <FrameWork tip={'NestJS'} iconName={"logos:nestjs"}/>
+        <FrameWork tip={'Supabase'} iconName={"logos:supabase"}/>
+        <FrameWork tip={'React Query'} iconName={"logos:react-query-icon"}/>
+        <FrameWork tip={'Zustand'} iconName={"simple-icons:zustand"}/>
+        <FrameWork tip={'Drizzle ORM'} iconName={"logos:drizzle"}/>
+        <FrameWork tip={'Tailwind CSS'} iconName={"logos:tailwindcss-icon"}/>
+        <FrameWork tip={'Redis'} iconName={"logos:redis"}/>
+        <FrameWork tip={'MQTT'} iconName={"logos:mqtt"}/>
+    </>}
+/>
+
+
+
+<ProjectsCard
+    title="Laptopwarehouse (E-commerce Platform)"
+    description="Designed and implemented a full-stack, single-store e-commerce platform from the ground up, integrating custom components and security analytics."
+    image={LaptopWarehouseImage} // Placeholder for your image
+    link={'#'} // Replace with live link if available
+    stack={<>
+        <FrameWork tip={'Next.js'} iconName={"logos:nextjs-icon"}/>
+        <FrameWork tip={'Firebase'} iconName={"vscode-icons:file-type-firebasehosting"}/>
+        <FrameWork tip={'React'} iconName={"logos:react"}/>
+        <FrameWork tip={'Splunk'} iconName={"logos:splunk"}/>
+    </>}
+/>
+
+
+<ProjectsCard
+    title="PowerBIM (Industrial Asset Monitoring)"
+    description="Developed a 'Digital Twin' solution for industrial asset monitoring. Built dynamic dashboards, visual maps, and integrated IoT and cloud functions for real-time data."
+    image={PowerBIMImage} // Placeholder for your image
+    link={'https://www.powerbim.com'} // Link provided in your content
+    stack={<>
+        <FrameWork tip={'React'} iconName={"logos:react"}/>
+        <FrameWork tip={'IoT'} iconName={"eos-icons:iot"}/>
+        <FrameWork tip={'Cloud Functions'} iconName={"logos:google-cloud"}/>
+        <FrameWork tip={'Data Visualization'} iconName={"tabler:dashboard"}/>
+    </>}
+/>
+
+
+
+<ProjectsCard
+    title="Bulqpay (Omni-Channel Payment Interfaces)"
+    description="Led development of secure, omni-channel payment UIs adhering to PCI-DSS standards. Implemented smart-checkout with real-time fraud detection and Google Analytics sync."
+    image={BulqpayImage} // Placeholder for your image
+    link={'https://www.bulqpay.com'} // Link provided in your content
+    stack={<>
+        <FrameWork tip={'Payment Services'} iconName={"logos:stripe"}/>
+        <FrameWork tip={'PCI-DSS'} iconName={"simple-icons:pcigaming"}/>
+        <FrameWork tip={'Tokenization'} iconName={"ri:secure-payment-line"}/>
+        <FrameWork tip={'Google Analytics'} iconName={"logos:google-analytics"}/>
+    </>}
+/>
+
+
+<ProjectsCard
+    title="Plural (HealthTech Admin & Patient Dashboards)"
+    description="Engineered core hospital admin panels and patient dashboards, streamlining clinical workflows and improving data visualization in a HealthTech environment."
+    image={PluralImage} // Placeholder for your image
+    link={'https://www.plural.health'} // Link provided in your content
+    stack={<>
+        <FrameWork tip={'Next.js'} iconName={"logos:nextjs-icon"}/>
+        <FrameWork tip={'Redux Toolkit'} iconName={"logos:redux"}/>
+        <FrameWork tip={'React'} iconName={"logos:react"}/>
+    </>}
+/>
+
+
+
+<ProjectsCard
+    title="Adjunqy (AI-Powered Social Media Manager)"
+    description="Developed the core frontend architecture for an AI-powered social media manager, focusing on modularity, mobile responsiveness, and integrating OpenAI APIs."
+    image={AdjunqyImage} // Placeholder for your image
+    link={'https://www.adjunqy.com'} // Link provided in your content
+    stack={<>
+        <FrameWork tip={'React'} iconName={"logos:react"}/>
+        <FrameWork tip={'RTK Query'} iconName={"logos:redux"}/>
+        <FrameWork tip={'OpenAI API'} iconName={"logos:openai-icon"}/>
+        <FrameWork tip={'UI/UX Strategy'} iconName={"devicon:figma"}/>
+    </>}
+/>
+
+
+
+              
 
           <ProjectsCard
           link={'https://www.shaninteriordesign.com/'}
